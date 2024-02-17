@@ -1,0 +1,32 @@
+{
+  "name": "notification-system",
+  "version": "1.0.0",
+  "description": "A multi-channel notification system",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadi421/Notification-System.git"
+  },
+  "author": "Adarsh Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aadi421/Notification-System/issues"
+  },
+  "homepage": "https://github.com/Aadi421/Notification-System#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3",
+    "nodemailer": "^6.9.9",
+    "nodemailer-ses-transport": "^1.5.1",
+    "nodemon": "^3.0.3",
+    "twilio": "^4.22.0",
+    "web-push": "^3.6.7"
+  }
+}

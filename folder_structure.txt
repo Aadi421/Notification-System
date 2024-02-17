@@ -1,0 +1,36 @@
+notification-system/
+│
+├── controllers/
+│   ├── notificationController.js
+│   └── subscriptionController.js
+│
+├── models/
+│   ├── notificationModel.js
+│   └── subscriptionModel.js
+│
+├── views/
+│   ├── index.ejs
+│   └── subscribe.ejs
+│
+├── routes/
+│   ├── notificationRoutes.js
+│   └── subscriptionRoutes.js
+│
+├── services/
+│   ├── emailService.js
+│   ├── smsService.js
+│   └── pushService.js
+│
+├── public/
+│   ├── js/
+│   │   └── main.js
+│   └── css/
+│       └── style.css
+│
+├── config/
+│   ├── config.js
+│   └── webpushConfig.js
+│
+├── .env
+├── app.js
+└── package.json
